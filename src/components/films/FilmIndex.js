@@ -2,6 +2,8 @@ import React from 'react'
 import axios from 'axios'
 import FilmCard from './FilmCard'
 
+const key = process.env.MOVIE_KEY
+
 class FilmIndex extends React.Component {
   state = {
     films: [],
@@ -17,7 +19,7 @@ class FilmIndex extends React.Component {
 
   async getFilm() {
     try {
-      const res = await axios.get(`https://api.themoviedb.org/3/discover/movie?primary_release_year=${this.state.year}&api_key=3afeb04a1fe8f1b2dc3b55f9ed835c6d`)
+      const res = await axios.get(`https://api.themoviedb.org/3/discover/movie?primary_release_year=${this.state.year}&api_key=${key}`)
       this.setState({ films: res.data.results })
     } catch (err) {
       console.log(err)

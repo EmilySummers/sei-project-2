@@ -2,6 +2,8 @@ import React from 'react'
 import axios from 'axios'
 import { Link } from 'react-router-dom'
 
+const key = process.env.MOVIE_KEY
+
 class FilmGenre extends React.Component {
   state = {
     genres: []
@@ -9,7 +11,7 @@ class FilmGenre extends React.Component {
 
   async componentDidMount() {
     try {
-      const response = await axios.get('http://api.themoviedb.org/3/genre/movie/list?api_key=3afeb04a1fe8f1b2dc3b55f9ed835c6d')
+      const response = await axios.get(`https://api.themoviedb.org/3/genre/movie/list?api_key=${key}`)
       this.setState({ genres: response.data.genres })
     } catch (err) {
       console.log(err)
