@@ -13,8 +13,8 @@ body {
 
 .hero {
   width: 100vw;
-  background-image: url('../assets/giphy.gif');
-  background-size: 820px;
+  background-image: url('../assets/hero.png');
+  background-size: cover;
 }
 
 .navbar {
@@ -36,10 +36,10 @@ body {
 }
 
 .logo {
-   background-color: white;
-   border-radius: 100%;
-   padding: 5px;
- }
+  background-color: white;
+  border-radius: 100%;
+  padding: 5px;
+}
 
 .logo p {
   color: $newRed;
@@ -103,21 +103,25 @@ body {
   display: flex;
   justify-content: center;
   p {
-  color: $newRed;
+  color: white;
+  font-size: 80px;
+  font-weight: bold;
   }
 
 }
 
 .main-logo {
-  background-color: $newRed;
-  width: 50px;
-  height: 50px;
+  background-color: white;
+  width: 80px;
+  height: 80px;
   border-radius: 100%;
   padding: 5px;
   display: flex;
   justify-content: center;
+  align-self: center;
   p {
-    color: white;
+    color: rgba(255, 0, 64, 0.75);
+    font-size: 58px;
   }
 }
 
@@ -127,7 +131,6 @@ body {
   justify-content: space-evenly;
   border: 1px solid $mustard;
   padding: 10px;
- 
 }
 
 .genre {
