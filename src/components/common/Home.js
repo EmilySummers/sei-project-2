@@ -8,9 +8,9 @@ const Home = () => (
           <div className="main-logo">
             <p className="title">20</p>
           </div>
-          <p className="has-text-centered">
+          <p className="title is-1 has-text-centered">
           TopTwenty
-          </p>
+        </p>
         </div>
       </div>
     </div>

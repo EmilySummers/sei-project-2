@@ -11,15 +11,15 @@ class Navbar extends React.Component {
           <div className="navbar-brand">
             <Link className="navbar-item has-text-white title" to="/">
               <div className="logo">
-                <p className="title">20</p>
+              <p className="title">20</p>
               </div>
               TopTwenty</Link>
           </div>
-          <div className="navbar-end">
-            <Link className="navbar-item has-text-white title is-4" to="/years">Films by Year</Link>
-            <Link className="navbar-item has-text-white title is-4" to="/genres">Films by Genre</Link>
+            <div className="navbar-end">
+              <Link className="navbar-item has-text-white title is-4" to="/years">Films by Year</Link>
+              <Link className="navbar-item has-text-white title is-4" to="/genres">Films by Genre</Link>
+            </div>
           </div>
-        </div>
       </nav>
     )
   }

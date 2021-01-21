@@ -1,7 +1,7 @@
 import React from 'react'
 import axios from 'axios'
 
-const key = process.env.REACT_APP_MOVIE_KEY
+const key = process.env.MOVIE_KEY
 
 class FilmShow extends React.Component {
   state = {
