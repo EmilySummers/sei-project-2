@@ -2,7 +2,7 @@ import React from 'react'
 import axios from 'axios'
 import FilmCard from './FilmCard'
 
-const key = process.env.MOVIE_KEY
+const key = process.env.REACT_APP_MOVIE_KEY
 
 class FilmIndex extends React.Component {
   state = {

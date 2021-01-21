@@ -2,7 +2,7 @@ import React from 'react'
 import axios from 'axios'
 import { Link } from 'react-router-dom'
 
-const key = process.env.MOVIE_KEY
+const key = process.env.REACT_APP_MOVIE_KEY
 
 class FilmGenre extends React.Component {
   state = {
