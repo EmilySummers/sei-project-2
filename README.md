@@ -126,13 +126,13 @@ The information page displays the film title, synopsis, poster image, tagline, d
 
 - Another key learning was how useful loops and array methods can be in writing short and efficient code. For this project, we used them to produce multiple elements from one template component.
 
-- This project really taught us the importance of research when using APIs. At first we thought that the only way to access the genre data was through each film object, but after further research into the API documenation, we found that by using a different API request we could access a full list of all genres in the database. This discovery enabled as to add the 'Films by Genre' feature.
+- This project really taught us the importance of research when using APIs. At first, we thought that the only way to access the genre data was through each film object, but after further research into the API documentation, we found that by using a different API request we could access a full list of all genres in the database. This discovery enabled as to add the 'Films by Genre' feature.
 
 ## Challenges and Future Improvements
 
 - As we only had 48 hours to complete the project, we did not have enough time to make the site responsive as we would have liked. We used Bulma for some of the styling, which meant that some areas of our website were mobile-friendly, but other aspects of the website could definitely be improved upon in this area.
 
-- I would like add a watchlist feature, where users can select films they like the look of and add them to their 'to watch' list. This would involve giving users the ability to create accounts to access their own personal list films to watch.
+- I would like to add a watchlist feature, where users can select films that they like the look of and add them to their 'to watch' list. This would involve giving users the ability to create accounts to access their own personal list films to watch.
 
 
 
